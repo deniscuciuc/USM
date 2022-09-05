@@ -61,7 +61,6 @@ int findMax()
 
 /**
  * @brief Get the Index in array by element (int)
- * 
  * Method's alghoritm:
  *      1. Looping through array
  *      2. If elem is equal to array[i] (elem by index) then return index - i
