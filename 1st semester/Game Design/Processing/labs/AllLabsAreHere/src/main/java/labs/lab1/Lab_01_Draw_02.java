@@ -1,3 +1,6 @@
+package labs.lab1;
+
+
 import processing.core.PApplet;
 
 /**
@@ -7,10 +10,13 @@ import processing.core.PApplet;
  *
  * @author dcuciuc
  */
-public class Main extends PApplet {
+public class Lab_01_Draw_02 extends PApplet {
+    final int SKETCH_WIDTH = 500;
+    final int SKETCH_HEIGHT = 600;
 
     public void settings() {
-        size(500, 600);
+        size(SKETCH_WIDTH, SKETCH_HEIGHT);
+        noSmooth();
     }
 
     public void setup() {
@@ -27,7 +33,7 @@ public class Main extends PApplet {
     }
 
     private void drawHead(float x, float y) {
-
+        rect(x, y, SKETCH_WIDTH / 3.0f, SKETCH_HEIGHT / 3.0f);
     }
 
     private void drawBody(float x, float y) {

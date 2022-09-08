@@ -27,8 +27,10 @@ public class Lab_01_Draw_01 extends PApplet {
     int[] fillRGB = new int[]{};
     int[] strokeRGB = new int[]{};
 
+
     public void settings() {
         size(700, 150);
+        noSmooth();
     }
 
     public void setup() {
@@ -63,8 +65,6 @@ public class Lab_01_Draw_01 extends PApplet {
         }
 
         rect(x, y, HOUSE_WIDTH_SIZE, HOUSE_HEIGHT_SIZE);
-
-        strokeWeight(0.1f);
         triangle(x, y, x + HOUSE_WIDTH_SIZE, y, x + (HOUSE_WIDTH_SIZE / 2.0f), y - (HOUSE_WIDTH_SIZE / 2.0f));
     }
 
@@ -72,7 +72,6 @@ public class Lab_01_Draw_01 extends PApplet {
         float quadSize = 55;
         fill(255, 255, 0);
         stroke(0, 0, 0);
-        strokeWeight(0.5f);
         quad(x, y, x + (quadSize / 2), y - quadSize, x + quadSize, y, x + (quadSize / 2), y + quadSize);
     }
 
