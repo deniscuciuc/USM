@@ -11,7 +11,7 @@ public class Lab_02_VariablesPart2_ModuloAnimation extends PApplet {
 
         if (frameCounter >= 5) {
             frameCounter = 0;
-            println("Counter for frame ticks max value is 5! Now counter is " + frameCounter);
+            println("Counter for frame ticks max value is 5! \nReseting variable... ");
         }
 
         println("Frame tick: " + frameCounter);
