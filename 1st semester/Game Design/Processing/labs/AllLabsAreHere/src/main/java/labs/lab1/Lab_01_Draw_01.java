@@ -98,6 +98,7 @@ public class Lab_01_Draw_01 extends PApplet {
         final int GAME_BOARD_SIZE = 3;
         final int GAME_BOARD_MAX_CELLS = GAME_BOARD_SIZE * 3;
         final float CELL_SIZE = 20;
+
         for (int i = 1; i <= GAME_BOARD_MAX_CELLS; i++) {
             if (i == 4 || i == 7) {
                 y += CELL_SIZE + 5;
