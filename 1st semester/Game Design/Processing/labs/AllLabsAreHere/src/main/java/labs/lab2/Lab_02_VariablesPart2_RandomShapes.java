@@ -23,10 +23,18 @@ public class Lab_02_VariablesPart2_RandomShapes extends PApplet {
         randomColorRGB[0] = (int) random(0, 255);
         randomColorRGB[1] = (int) random(0, 255);
         randomColorRGB[2] = (int) random(0, 255);
-        randomXRectPos = (int) random(10, SKETCH_SIZE);
-        randomYRectPos = (int) random(10, SKETCH_SIZE);
-        randomRectWidth = random(1, SKETCH_SIZE);
-        randomRectHeight = random(1, SKETCH_SIZE);
+
+        boolean rectIsCorrectGenerated = false;
+        do {
+            randomXRectPos = (int) random(10, SKETCH_SIZE - 10);
+            randomYRectPos = (int) random(10, SKETCH_SIZE - 10);
+            randomRectWidth = random(1, SKETCH_SIZE - 1);
+            randomRectHeight = random(1, SKETCH_SIZE - 1);
+
+           if (randomRectWidth + randomXRectPos <= SKETCH_SIZE && randomYRectPos + randomRectHeight <= SKETCH_SIZE)  {
+               rectIsCorrectGenerated = true;
+           }
+        } while (!rectIsCorrectGenerated);
 
         drawRandomRect();
     }
