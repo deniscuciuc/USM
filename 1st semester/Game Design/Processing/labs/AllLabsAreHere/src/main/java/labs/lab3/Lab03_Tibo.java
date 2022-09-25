@@ -31,7 +31,7 @@ public class Lab03_Tibo extends PApplet {
         frameCounter++;
         drawTiboAnimation();
 
-        if (rawCounter >= MAX_ROWS) rawCounter = 1;
+        if (rawCounter > MAX_ROWS) rawCounter = 1;
         if (frameCounter >= MAX_FRAMES_IN_RAW) {
             rawCounter++;
             frameCounter = 0;
