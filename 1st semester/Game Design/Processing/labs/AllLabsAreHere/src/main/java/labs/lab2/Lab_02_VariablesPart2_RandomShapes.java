@@ -31,7 +31,8 @@ public class Lab_02_VariablesPart2_RandomShapes extends PApplet {
             randomRectWidth = random(1, SKETCH_SIZE - 1);
             randomRectHeight = random(1, SKETCH_SIZE - 1);
 
-           if (randomRectWidth + randomXRectPos <= SKETCH_SIZE && randomYRectPos + randomRectHeight <= SKETCH_SIZE)  {
+            boolean rectDoestNotExceedTheSketchSize = randomRectWidth + randomXRectPos <= SKETCH_SIZE && randomYRectPos + randomRectHeight <= SKETCH_SIZE;
+           if (rectDoestNotExceedTheSketchSize)  {
                rectIsCorrectGenerated = true;
            }
         } while (!rectIsCorrectGenerated);
