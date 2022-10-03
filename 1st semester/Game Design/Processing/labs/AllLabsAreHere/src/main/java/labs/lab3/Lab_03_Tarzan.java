@@ -27,7 +27,7 @@ public class Lab_03_Tarzan extends PApplet {
         frameCounter++;
         drawTarzanAnimation(frameCounter);
 
-        if (frameCounter >= NUMBER_OF_FRAMES) frameCounter = 0;
+        if (frameCounter > NUMBER_OF_FRAMES) frameCounter = 0;
     }
 
     private void drawTarzanAnimation(int currentFrame) {
