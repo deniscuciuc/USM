@@ -18,15 +18,13 @@ int main(void)
     {
         result = pow(x, 3) * sqrt(x - a);
     }
-
-    if (x == a)
-    {
-        result = x * sin(a * x);
-    }
-
-    if (x < a)
+    else if (x < a) 
     {
         result = pow(e, (-a * x)) * cos(a * x);
+    }
+    else 
+    {
+        result = x * sin(a * x);
     }
 
     std::cout << "\nResult: " << result;
