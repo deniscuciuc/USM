@@ -10,6 +10,7 @@ public class PlayerAttack : MonoBehaviour
     private PlayerMovement _playerMovement;
     private float _cooldownTimer = Mathf.Infinity;
 
+
     private void Awake()
     {
         _animator = GetComponent<Animator>();
