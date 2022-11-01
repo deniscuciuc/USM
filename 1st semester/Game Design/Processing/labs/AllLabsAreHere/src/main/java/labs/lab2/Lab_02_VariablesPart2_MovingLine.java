@@ -34,7 +34,7 @@ public class Lab_02_VariablesPart2_MovingLine extends PApplet {
                 endXPoint = SKETCH_WIDTH,
                 endYPoint = SKETCH_HEIGHT;
 
-        frameRate(80);
+
         switch (movingDirection) {
             case DOWN:
                 line(startXPoint, movingDownLineYPos, endXPoint, movingDownLineYPos);

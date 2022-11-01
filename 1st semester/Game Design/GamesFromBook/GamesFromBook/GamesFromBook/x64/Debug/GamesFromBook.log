@@ -1,4 +1,7 @@
-﻿  GuessMyNumber.cpp
-  Menu.cpp
-  Generating Code...
-  GamesFromBook.vcxproj -> D:\Repositories\USM\1st semester\Game Design\GamesFromBook\GamesFromBook\x64\Debug\GamesFromBook.exe
+﻿  GamesFromBook.cpp
+D:\Repositories\USM\1st semester\Game Design\GamesFromBook\GamesFromBook\GamesFromBook\GamesFromBook.cpp(12,19): warning C4474: 'scanf_s' : too many arguments passed for format string
+D:\Repositories\USM\1st semester\Game Design\GamesFromBook\GamesFromBook\GamesFromBook\GamesFromBook.cpp(12,19): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+D:\Repositories\USM\1st semester\Game Design\GamesFromBook\GamesFromBook\GamesFromBook\GamesFromBook.cpp(15,19): warning C4474: 'scanf_s' : too many arguments passed for format string
+D:\Repositories\USM\1st semester\Game Design\GamesFromBook\GamesFromBook\GamesFromBook\GamesFromBook.cpp(15,19): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+D:\Repositories\USM\1st semester\Game Design\GamesFromBook\GamesFromBook\GamesFromBook\GamesFromBook.cpp(12): error C4700: uninitialized local variable 'N' used
+D:\Repositories\USM\1st semester\Game Design\GamesFromBook\GamesFromBook\GamesFromBook\GamesFromBook.cpp(15): error C4700: uninitialized local variable 'K' used
