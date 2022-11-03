@@ -4,22 +4,21 @@ import processing.core.PApplet;
 
 public class Lab_05_GuessNumber extends PApplet {
 
-    public void settings() {
-        size(900, 300);
-    }
-
     int answer = (int) random(0, 9);
     String hit = "";
     String winText = "";
     int counter = 0;
+    boolean gameWon = false;
+
+    public void settings() {
+        size(900, 300);
+    }
 
     public void draw() {
         background(0, 0, 0);
         displayGameConditionText();
         displayHit();
         displayWinText();
-        System.out.println("Answer: " + answer);
-        System.out.println("Key pressed: " + key);
     }
 
     void displayGameConditionText() {
@@ -28,14 +27,22 @@ public class Lab_05_GuessNumber extends PApplet {
     }
 
     public void keyPressed() {
-        if (key > answer) {
-            hit = "Try lower";
-            counter++;
-        } else if (key < answer) {
-            hit = "Try higher";
-            counter++;
+        if (gameWon) {
+            restartGame();
         } else {
-            winText = String.format("You guessed the number after %d tries", counter);
+            int normalKeyCode = keyCode - 48;
+            if (normalKeyCode > answer) {
+                hit = "Try lower";
+                counter++;
+            } else if (normalKeyCode < answer) {
+                hit = "Try higher";
+                counter++;
+            } else {
+                winText = String.format("You guessed the number after %d tries \n\n     " +
+                        "Click any key to restart game", counter);
+                hit = "";
+                gameWon = true;
+            }
         }
     }
 
@@ -44,6 +51,13 @@ public class Lab_05_GuessNumber extends PApplet {
     }
 
     void displayWinText() {
-        text(winText, width / 2.4f, height / 2.f);
+        text(winText, width / 3.4f, height / 2.f);
+    }
+
+    void restartGame() {
+        counter = 0;
+        answer = (int) random(0, 9);
+        winText = "";
+        gameWon = false;
     }
 }
