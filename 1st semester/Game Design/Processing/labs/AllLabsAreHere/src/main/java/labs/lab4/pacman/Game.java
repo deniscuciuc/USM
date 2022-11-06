@@ -4,8 +4,8 @@ import processing.core.PApplet;
 
 public class Game extends PApplet {
 
-    private Map map;
-    private Pacman pacman;
+    private final Map map;
+    private final Pacman pacman;
 
     public Game() {
         this.map = new Map();

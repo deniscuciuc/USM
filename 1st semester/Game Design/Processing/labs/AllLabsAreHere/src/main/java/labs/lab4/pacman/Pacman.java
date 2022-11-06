@@ -75,12 +75,20 @@ public class Pacman {
         isAlive = alive;
     }
 
+    public void moveUp() {
+        this.positionY -= 1;
+    }
+
+    public void moveDown() {
+        this.positionX += 1;
+    }
+
     public void moveLeft() {
         this.positionX += 1;
     }
 
     public void moveRight() {
-
+        this.positionX -= 1;
     }
 
     public void hitPacman() {
