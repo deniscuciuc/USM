@@ -13,6 +13,9 @@ void draw() {
   drawSquares(130, 200, 10);
   drawSquares(50, 320, 10, color(255, 0, 0));
   drawSquares(140, 325, 5, color(0, 255, 0));
+  drawCircles(260, 100, 2, 10);
+  drawCircles(400, 110, 10, 10);
+  drawGradient(515, 20, 70);
 }
 
 void drawLines(float posX, float posY) {
@@ -71,7 +74,28 @@ void drawSquares(float posX, float posY, int amount, color squareColor) {
 }
 
 void drawCircles(float posX, float posY, int amount, float radius) {
+  strokeWeight(0);
+  stroke(0);
+  noFill();
+  float diameter = radius * 2;
   for (int i = 1; i <= amount; i++) {
-    
+    ellipse(posX, posY, diameter, diameter);
+    diameter += radius * 2;
   }
 }
+
+void drawGradient(float x, float y, float lineHeight){
+  final int NUMBER_OF_RGB_COLORS = 255;
+  for (int i = 0; i <= NUMBER_OF_RGB_COLORS; i++){
+    stroke(0, 255 - i, i);
+    line (x + i, y, x + i,  y + lineHeight);
+  }
+}
+
+ //void drawGradient(float x, float y, float barWidth, float barHeight, color firstColor, color secondColor) {
+ //  float amount = 0.1;
+ //  color lerpColor = lerpColor(firstColor, secondColor, amount);
+ //  for (int i = 0; i <= barWidth; i++) {
+ //    line(x + i, y, x + i, y + barHeight);
+ //  }
+ //}
