@@ -30,12 +30,9 @@ void keyPressed() {
     if (textBoxValue.length() == 0) return;
     
     textBoxValue.deleteCharAt(textBoxValue.length() - 1);
-    convertFromStringToInt();
     return;
   }
-  int normalKey = key - 48;
-  textBoxValue.append(normalKey);
-  convertFromStringToInt();
+  textBoxValue.append(key);
 }
 
 void displayInstruction() {
