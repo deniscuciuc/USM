@@ -14,7 +14,7 @@ public class Health : MonoBehaviour
         CurrentHealth = startingHealth;
     }
 
-    private void TakeDamage(float damage)
+    public void TakeDamage(float damage)
     {
         CurrentHealth = Mathf.Clamp(CurrentHealth - damage, 0, startingHealth);
 
@@ -31,5 +31,16 @@ public class Health : MonoBehaviour
                 _dead = true;
             }
         }
+    }
+
+    public void addHealth(float health)
+    {
+        CurrentHealth = Mathf.Clamp(CurrentHealth + health, 0, startingHealth);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+            TakeDamage(1);
     }
 }

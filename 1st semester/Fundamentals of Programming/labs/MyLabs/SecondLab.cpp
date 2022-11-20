@@ -4,7 +4,6 @@ const int arraySize = 5;
 
 int getOneNumberThatIsPresentInAllArrays(int firstArrray[arraySize], int secondArray[arraySize], int thirdArray[arraySize]);
 
-/*
 int main() {
 	int firstArray[arraySize] = { 2,1,0,25,15 };
 	int secondArray[arraySize] = { 2,1,0,21,11 };
@@ -14,7 +13,6 @@ int main() {
 
 	return 0;
 }
-*/
 
 int getOneNumberThatIsPresentInAllArrays(int firstArray[arraySize], int secondArray[arraySize], int thirdArray[arraySize])
 {
