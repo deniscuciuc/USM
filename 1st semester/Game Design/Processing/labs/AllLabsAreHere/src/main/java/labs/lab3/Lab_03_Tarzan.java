@@ -31,7 +31,7 @@ public class Lab_03_Tarzan extends PApplet {
     }
 
     private void drawTarzanAnimation(int currentFrame) {
-        final int y = 1, width = 139, height = 149;
+        final int y = 1, width = 137, height = 156;
         int x = 15;
 
         switch (currentFrame) {
