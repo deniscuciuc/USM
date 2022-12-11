@@ -1,8 +1,4 @@
     /* String functions */
-    
-    public void settings() {
-        size(500, 400);
-    }
 
     String typing = "";
 
@@ -18,20 +14,45 @@
     int gapBetweenButtons = 30;
     int buttonHeight = 25;
     int buttonWidth = 125;
-
-    public void draw() {
-        drawInputField();
-        drawButtons();
-        drawResults();
+    
+    void settings() {
+        size(500, 400);
     }
 
-    public void keyPressed() {
+    void draw() {
+        int fieldPosX = 100;
+        int fieldPosY = 100;
+
+        fill(255, 255, 255);
+        rect(fieldPosX, fieldPosY, 150, 25);
+
+        fill(0, 0, 0);
+        textSize(14);
+        text(typingBuilder.toString(), 100 + 5, fieldPosY + 20, 50);
+        
+        fill(0);
+        textSize(14);
+        text(capitals, 100, 170);
+        text(lastCharacter, 100, 220);
+        text(middleCharacter, 100, 270);
+        
+        drawButtons();
+        
+        
+        fill(0);
+        textSize(14);
+        text(capitals, 100, 170);
+        text(lastCharacter, 100, 220);
+        text(middleCharacter, 100, 270);
+    }
+
+    void keyPressed() {
         if (key != '\n') {
             typingBuilder.append(key);
         }
     }
 
-    public void mousePressed() {
+    void mousePressed() {
         boolean isPressedButtonX = mouseX >= buttonPosX && mouseX <= buttonPosX + buttonWidth;
         boolean isPressedClearButton = isPressedButtonX && mouseY >= topGap && mouseY <= topGap + buttonHeight;
         boolean isPressedCapitalsButton = isPressedButtonX
@@ -58,27 +79,7 @@
         else if (isPressedMatchButton)
             doesTextMatch("DAE");
     }
-
-    void drawInputField() {
-        int fieldPosX = 100;
-        int fieldPosY = 100;
-
-        fill(255, 255, 255);
-        rect(fieldPosX, fieldPosY, 150, 25);
-
-        fill(0, 0, 0);
-        textSize(14);
-        text(typingBuilder.toString(), 100 + 5, fieldPosY + 20, 50);
-    }
-
-    void drawResults() {
-        fill(0);
-        textSize(14);
-        text(capitals, 100, 170);
-        text(lastCharacter, 100, 220);
-        text(middleCharacter, 100, 270);
-    }
-
+    
     void drawButtons() {
         for (int i = 0; i < buttonsTitle.length; i++) {
             int newButtonPosY = topGap + buttonHeight * i + gapBetweenButtons * i;

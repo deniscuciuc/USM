@@ -1,20 +1,20 @@
     /* Typing Master */
     
     char letter;
-    int[] randomColorRGB = new int[3];
+    color randomColorRGB;
     boolean isGameOver = false;
     int hits = 0;
     int misses = 0;
 
-    public void settings() {
+    void settings() {
         size(500, 300);
     }
 
-    public void setup() {
+    void setup() {
         generateNewValueAndColor();
     }
 
-    public void draw() {
+    void draw() {
         if (misses >= 3) {
             endGame();
         } else {
@@ -25,11 +25,7 @@
     }
 
     void drawLetterInCircle() {
-        fill(
-                randomColorRGB[0],
-                randomColorRGB[1],
-                randomColorRGB[2]
-        );
+        fill(randomColorRGB);
         ellipse(width / 2f, height / 2f, 40, 40);
 
         fill(0);
@@ -68,8 +64,6 @@
     }
 
     void generateNewValueAndColor() {
-        randomColorRGB[0] = (int) random(0, 255);
-        randomColorRGB[1] = (int) random(0, 255);
-        randomColorRGB[2] = (int) random(0, 255);
+        randomColorRGB = color(random(0,255),random(0,255),random(0,255));
         letter = (char) random(97, 123);
     }

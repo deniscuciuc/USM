@@ -1,14 +1,14 @@
     /* Gradient */
     
-    public void settings() {
+    void settings() {
         size(256 * 2, 50);
     }
 
-    public void setup() {
+    void setup() {
         noLoop();
     }
 
-    public void draw() {
+    void draw() {
         int endingColorPoint = 256;
         int x1 = 1, y1 = 0, x2 = 1, y2 = height;
         for (int i = 0; i < 256 * 2; i++) {

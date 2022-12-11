@@ -1,15 +1,14 @@
     /* Savings */
     
-    public void settings() {
+    void settings() {
         size(300, 300);
     }
 
-    public void draw() {
+    void draw() {
         background(255);
-        calculateAmountForYears(1000, 2, 10);
-    }
-
-    void calculateAmountForYears(int deposit, int percent, int years) {
+        int deposit = 1000;
+        int percent = 2;
+        int years = 10;
         float percentInMoneyFromDeposit = deposit / 100f * percent;
         int savingsPosX = 10;
         int accountPosX = 70;

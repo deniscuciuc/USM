@@ -2,11 +2,11 @@
     
     int gapY = 15;
 
-    public void settings() {
+    void settings() {
         size(300, 300);
     }
 
-    public void draw() {
+    void draw() {
         drawEvenNumbersUsingForLoop(1, 30);
         drawEvenNumbersUsingWhileLoop(1, 30);
         drawEvenNumbersUsingDoWhileLoop(1, 30);
