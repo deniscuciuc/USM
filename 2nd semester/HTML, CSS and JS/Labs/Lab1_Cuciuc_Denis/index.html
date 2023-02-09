@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Lab 1 maded by Cuciuc Denis">
+      <meta name="keywords" content="lab1, tasks, test">
+      <meta name="author" content="Cuciuc Denis (DJ2204), subgroup 2">
+      <link rel="shortcut icon" href="images/icon.ico">
+      <title>Laborator nr.1</title>
+
+      <style>
+            table,
+            th,
+            td {
+                  border: 1px solid black;
+                  border-collapse: collapse;
+                  text-align: center;
+            }
+      </style>
+</head>
+
+<body>
+      <nav id="navbar">
+            <p>
+                  <a href="#chapter1">Chapter 1 (What is Java?)</a> |
+                  <a href="#chapter2">Chapter 2 (Why Java?)</a> |
+                  <a href="#chapter2">Chapter 3 (Java learning path)</a> |
+                  <a href="#stihi">Стихи</a> |
+                  <a href="#table">Таблица (3 задание)</a> |
+            </p>
+      </nav>
+      <br>
+      <br>
+      <h1 id="chapter1">1. Chapter 1</h1>
+      <h2>1.1 What is Java?</h2>
+      <p>Java is a programming language and a platform. Java is a high level, robust, <del>full</del> object-oriented and secure
+            programming language.
+            <br><br>
+
+      </p>
+      <p>Java was developed by <i>Sun Microsystems</i> (which is now the subsidiary of Oracle) in the year 1995.
+            <br>
+            James Gosling is known as the father of Java. Before Java, its name was <mark>Oak</mark>. Since Oak was already a
+            registered company, so James Gosling and his team changed the name from Oak to <ins>Java</ins>.
+      </p>
+      <p>
+            <b>Platform</b>: Any hardware or software environment in which a program runs, is known as a platform. Since
+            Java has a runtime environment (<i><abbr title="Java Runtime Environment">JRE</abbr></i>) and <i><abbr
+                        title="Application programming interface">API</abbr></i>, it is called a platform.
+      </p>
+      <h2>1.2 Examples</h2>
+      <p>Java is <b>
+                  <abb title="Object-oriented programming">OOP</abb>
+            </b> language so we can create classes and instatiating instaces of this classes (creating
+            objects</p>
+      <p><i>Object-oriented programming</i> is a programming paradigm based on the concept of <q><b>objects</b></q>,
+            which
+            can contain data
+            and code. The data is in the form of fields, and the code is in the form of procedures. A common feature of
+            objects is that procedures are attached to them and can access and modify the object's data fields.
+      </p>
+      <p><b>Abstraction</b>, encapsulation, inheritance, and polymorphism are four of the main principles of
+            object-oriented programming.
+            <br><br>
+            <b>Class Example in java:</b>
+            <code>
+                  <pre>
+                  public class Person {
+                        private String fullName;
+                        private int age;
+
+                        // constructors, getters and setters
+                  }
+                  </pre>
+            </code>
+            <b>Create object from Person class: </b><code>Person person = new Person("Cuciuc Denis", 20);</code>
+            <br><br>
+            <b>Method example with basic syntax (finds max integer in array): </b>
+            <br>
+            <code>
+                  <pre>
+                  int findMax(int[] array) {
+                        int max = array[0];
+                        for (int i = 1; i <= array.length; i++) {
+                              if (array[i] > max) {
+                                    max = array[i];
+                              }
+                        }
+                        return max;
+                  }
+                  </pre>
+            </code>
+      </p>
+
+      <br><br>
+      <hr>
+      <br><br>
+
+      <a href="#navbar">Вернуться наверх</a>
+      <h1 id="chapter2">2. Why java?</h1>
+      <h2>2.1 Application</h2>
+      <p>According to Sun, 3 billion devices run Java. There are many devices where Java is currently used. Some of them
+            are as follows:
+      <ol start="3">
+            <li>Desktop Applications such as acrobat reader, media player, antivirus, etc.</li>
+            <li>Web Applications such as irctc.co.in, javatpoint.com, etc.</li>
+            <li>Enterprise Applications such as banking applications.</li>
+            <li>Mobile</li>
+            <li>Embedded System</li>
+            <li>Smart Card</li>
+            <li>Robotics</li>
+            <li>Games, etc. (btw games is not a good idea on java)</li>
+      </ol>
+      </p>
+      <p>
+            <b>Types of Java Applications</b>
+      <ol type="a" reversed>
+            <li>Standalone Application</li>
+            <li>Web Application</li>
+            <li>Enterprise Application</li>
+            <li>Mobile Application</li>
+      </ol>
+      <b>Types of Java apps with descriptions</b>
+      <dl>
+            <dt><b>Standalone Application</b></dt>
+            <dd>Standalone applications are also known as desktop applications or window-based applications.<br> These
+                  are
+                  traditional software that we need to install on every machine. Examples of standalone application are
+                  Media player, antivirus, etc. <br> AWT and Swing are used in Java for creating standalone
+                  applications.
+            </dd>
+            <br>
+            <dt><b>Web Application</b></dt>
+            <dd>An application that runs on the server side and creates a dynamic page is called a web application.
+                  Currently, Servlet, JSP, Struts, <br> Spring, Hibernate, JSF, etc. technologies are used for creating
+                  web
+                  applications in Java.
+            </dd>
+            <br>
+            <dt><b>Enterprise Application</b></dt>
+            <dd>An application that is distributed in nature, such as banking applications, etc. is called an enterprise
+                  application. <br> It has advantages like high-level security, load balancing, and clustering. In Java,
+                  EJB
+                  is used for creating enterprise applications.
+            </dd>
+            <br>
+            <dt><b>Mobile Application</b></dt>
+            <dd>An application which is created for mobile devices is called a mobile application. Currently, Android
+                  and Java ME are used for creating mobile applications.
+            </dd>
+      </dl>
+      </p>
+      <p>
+            <b>Reasons to learn java</b>
+      <ol type="I">
+            <li>Java is Easy to Learn</li>
+            <li>Java is Versatile</li>
+            <li>Java is Scalable</li>
+            <li>Java is Platform-Independent</li>
+      </ol>
+      </p>
+      <p>Nowadays, Java is often the default choice for scientific applications, including natural language processing.
+            The main reason for this is because it is safe, portable, maintainable and comes with better high-level
+            concurrency tools than C++ or any other language.
+      </p>
+      <p>Depending on your career prospects, Java can take you on different career paths. Whether you’re interested in
+            building games, mobile applications, desktop applications, or web applications, Java is capable of working
+            in these environments.</p>
+      <h2>2.2 Why program in Java?
+
+      </h2>
+      <p>Java is easy to write and easy to run—this is the foundational strength of Java and why many developers program
+            in it. When you write Java once, you can run it almost anywhere at any time.</p>
+      <p>Java can be used to create complete applications that can run on a single computer or be distributed across
+            servers and clients in a network.
+      </p>
+      <p>As a result, you can use it to easily build mobile applications or run on desktop applications that use
+            different operating systems and servers, such as Linux or Windows.
+
+            Once a developer is familiar with installing JDK, setting up PATH and understanding how CLASSPATH works they
+            will be able to build code easily.
+      </p>
+
+      <br><br>
+      <hr>
+      <br><br>
+
+      <a href="#navbar">Вернуться наверх</a>
+      <h1 id="chapter3">3. Java learning path</h1>
+      <h2>3.1 Where to start</h2>
+      <p>Learning the basics of any programming language is very important. It is the best way to begin learning
+            something new. Don’t have any anxiety, begin learning the concepts about the language. Get familiar with the
+            environment, and slowly you will get used to it within no time. Here are a few links to get you started:
+      <ul>
+            <li>Java – Overview (read about java)</li>
+            <li>Basics (syntax, classes, objects)</li>
+            <li>Naming Convention</li>
+            <li>OOP concepts</li>
+            <li>Alghoritms (simple algorithms using basic syntax)</li>
+      </ul>
+      </p>
+      <p>Once you have understood the basics, the best thing to do is to brush up your skills with regular practice.
+            True knowledge comes only when you implement what you’ve learned, as is said ‘Practice Makes a Man Perfect’.
+            So, code more than you read. This will build your confidence. Remember Perfect Practice makes you Perfect.
+            <br><br>
+            Usefull platforms to practice java:
+      <ul>
+            <li><a href="https://leetcode.com/">Leetcode</a></li>
+            <li><a href="https://www.codewars.com/">CodeWars</a></li>
+            <li><a href="https://www.w3resource.com/java-exercises/">W3 Java Exercises</a></li>
+      </ul>
+      </p>
+      <p>Continuously read about the various topics in Java and try to explore more. This will help to maintain your
+            interest in Java. <br><br>
+            For example design patterns. Start with this patterns:
+      <ul type="circle">
+            <li>Singleton</li>
+            <li>Builder</li>
+            <li>Factory Method</li>
+            <li>Abstract Factory</li>
+      </ul>
+
+      And you can give it a try to framework spring, espacially for modules:
+      <ul type="square">
+            <li>Spring Boot</li>
+            <li>Spring Security</li>
+            <li>Spring Data JPA</li>
+            <li>Spring Cloud</li>
+      </ul>
+      </p>
+      <h2>3.2 Road map</h2>
+      <p>
+            Here is all road map from begginner to junior java developer:
+
+      <ol>
+            <li>Java Core</li>
+            <ul type="disc">
+                  <li>Basic Syntax</li>
+                  <li>OOP</li>
+                  <ul type="circle">
+                        <li>Abstraction</li>
+                        <li>Inheritance</li>
+                        <li>Encapsulation</li>
+                        <li>Polymorphism</li>
+                  </ul>
+                  <li>Access Modifiers</li>
+                  <ul type="circle">
+                        <li>private</li>
+                        <li>public</li>
+                        <li>protected</li>
+                        <li>default</li>
+                  </ul>
+                  <li>Collection Framework</li>
+                  <ul type="circle">
+                        <li>Collection</li>
+                        <li>Iterator</li>
+                        <li>List</li>
+                        <li>Map</li>
+                        <li>Set</li>
+                  </ul>
+            </ul>
+            <li>JDBC and MySQL</li>
+            <li>Hibernate</li>
+            <li>Internet protocols</li>
+            <li>Spring Framework</li>
+      </ol>
+      </p>
+
+      <br><br>
+      <a href="#navbar">Вернуться наверх</a>
+      <br><br>
+      <strong id="stihi">Я помню чудное мгновенье (Пушкин)</strong>
+      <br><br>
+      Я помню чудное мгновенье: <br>
+      Передо мной явилась ты, <br>
+      Как мимолетное виденье, <br>
+      Как гений чистой красоты. <br>
+      <br><br>
+      В томленьях грусти безнадежной, <br>
+      В тревогах шумной суеты, <br>
+      Звучал мне долго голос нежный <br>
+      И снились милые черты. <br>
+      <br><br>
+      Шли годы. Бурь порыв мятежный <br>
+      Рассеял прежние мечты, <br>
+      И я забыл твой голос нежный, <br>
+      Твои небесные черты. <br>
+      <br><br>
+      В глуши, во мраке заточенья <br>
+      Тянулись тихо дни мои <br>
+      Без божества, без вдохновенья, <br>
+      Без слез, без жизни, без любви. <br>
+      <br><br>
+      Душе настало пробужденье: <br>
+      И вот опять явилась ты, <br>
+      Как мимолетное виденье, <br>
+      Как гений чистой красоты. <br>
+      <br><br>
+      И сердце бьется в упоенье, <br>
+      И для него воскресли вновь <br>
+      И божество, и вдохновенье, <br>
+      И жизнь, и слезы, и любовь. <br>
+      <br><br><br>
+
+      <br><br><br>
+      <pre>
+             <b>Ты и Вы (Пушкин)</b>
+                  
+          Пустое вы сердечным ты
+                  
+          Она, обмолвясь, заменила
+                  
+          И все счастливые мечты
+                  
+          В душе влюбленной возбудила.
+                  
+          Пред ней задумчиво стою,
+                  
+          Свести очей с нее нет силы;
+                  
+          И говорю ей: как вы милы!
+                  
+          И мыслю: как тебя люблю!
+      </pre>
+      <br><br>
+      <figure>
+            <blockquote cite="https://mir24.tv/news/14522327">
+                  ВДОХНОВЕНИЕ – ЭТО УМЕНИЕ ПРИВОДИТЬ СЕБЯ В РАБОЧЕЕ СОСТОЯНИЕ. <figcaption>А.С. Пушкин,
+                        <cite>mi24.tv</cite>
+                  </figcaption>
+            </blockquote>
+      </figure>
+      </p>
+
+      <br><br>
+      <a href="#navbar">Вернуться наверх</a><br><br>
+      <hr>
+      <h2 id="table">Table (task 3)</h2>
+      <table>
+            <tr>
+                  <th colspan="1" rowspan="2" scope="colgroup">Semestru</th>
+                  <th colspan="4" scope="colgroup">Total Ore</th>
+                  <th colspan="2" rowspan="2" scope="colgroup">Evaluarea</th>
+                  <th colspan="2" rowspan="2" scope="colgroup">Nr. de credite</th>
+            </tr>
+            <tr>
+
+                  <th scope="col" rowspan="1">Total <br> ore <br>semestru</th>
+                  <th scope="col">Curs</th>
+                  <th scope="col">Laborator</th>
+                  <th scope="col">LI</th>
+            </tr>
+            <tr>
+                  <th scope="row">I</th>
+                  <td>150</td>
+                  <td>30</td>
+                  <td>45</td>
+                  <td>75</td>
+                  <td>Examen</td>
+                  <td></td>
+                  <td>9</td>
+            </tr>
+            <tr>
+                  <th scope="row">II</th>
+                  <td>90</td>
+                  <td>30</td>
+                  <td>40</td>
+                  <td>30</td>
+                  <td>Examen</td>
+                  <td></td>
+                  <td>4</td>
+            </tr>
+            <tr>
+                  <th scope="row">Total ore</th>
+                  <td>240</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>Total Credite</td>
+                  <td></td>
+                  <td>9</td>
+            </tr>
+      </table>
+      <br><br>
+      <hr>
+      <p>
+            <b>Author:</b>
+      <address>
+            Laborator made by: <a href="https://www.linkedin.com/in/deniscuciuc/">Cuciuc Denis</a> <br>
+            Visit my projects at: <a href="https://github.com/deniscuciuc">GitHub</a><sup>Personal Account</sup><br>
+            <a href="mailto: dev.dcuciuc@gmail.com">Send me Mail</a><br>
+            Chisinau, Moldova <br>
+      </address>
+      </p>
+
+</body>
+
+</html>

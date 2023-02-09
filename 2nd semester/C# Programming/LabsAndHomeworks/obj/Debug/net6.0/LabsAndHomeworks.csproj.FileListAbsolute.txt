@@ -1,0 +1,15 @@
+C:\Users\DCUCIUC\Desktop\Repositories\USM\2nd semester\C# Programming\LabsAndHomeworks\bin\Debug\net6.0\LabsAndHomeworks.exe
+C:\Users\DCUCIUC\Desktop\Repositories\USM\2nd semester\C# Programming\LabsAndHomeworks\bin\Debug\net6.0\LabsAndHomeworks.deps.json
+C:\Users\DCUCIUC\Desktop\Repositories\USM\2nd semester\C# Programming\LabsAndHomeworks\bin\Debug\net6.0\LabsAndHomeworks.runtimeconfig.json
+C:\Users\DCUCIUC\Desktop\Repositories\USM\2nd semester\C# Programming\LabsAndHomeworks\bin\Debug\net6.0\LabsAndHomeworks.dll
+C:\Users\DCUCIUC\Desktop\Repositories\USM\2nd semester\C# Programming\LabsAndHomeworks\bin\Debug\net6.0\LabsAndHomeworks.pdb
+C:\Users\DCUCIUC\Desktop\Repositories\USM\2nd semester\C# Programming\LabsAndHomeworks\obj\Debug\net6.0\LabsAndHomeworks.csproj.AssemblyReference.cache
+C:\Users\DCUCIUC\Desktop\Repositories\USM\2nd semester\C# Programming\LabsAndHomeworks\obj\Debug\net6.0\LabsAndHomeworks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DCUCIUC\Desktop\Repositories\USM\2nd semester\C# Programming\LabsAndHomeworks\obj\Debug\net6.0\LabsAndHomeworks.AssemblyInfoInputs.cache
+C:\Users\DCUCIUC\Desktop\Repositories\USM\2nd semester\C# Programming\LabsAndHomeworks\obj\Debug\net6.0\LabsAndHomeworks.AssemblyInfo.cs
+C:\Users\DCUCIUC\Desktop\Repositories\USM\2nd semester\C# Programming\LabsAndHomeworks\obj\Debug\net6.0\LabsAndHomeworks.csproj.CoreCompileInputs.cache
+C:\Users\DCUCIUC\Desktop\Repositories\USM\2nd semester\C# Programming\LabsAndHomeworks\obj\Debug\net6.0\LabsAndHomeworks.dll
+C:\Users\DCUCIUC\Desktop\Repositories\USM\2nd semester\C# Programming\LabsAndHomeworks\obj\Debug\net6.0\refint\LabsAndHomeworks.dll
+C:\Users\DCUCIUC\Desktop\Repositories\USM\2nd semester\C# Programming\LabsAndHomeworks\obj\Debug\net6.0\LabsAndHomeworks.pdb
+C:\Users\DCUCIUC\Desktop\Repositories\USM\2nd semester\C# Programming\LabsAndHomeworks\obj\Debug\net6.0\LabsAndHomeworks.genruntimeconfig.cache
+C:\Users\DCUCIUC\Desktop\Repositories\USM\2nd semester\C# Programming\LabsAndHomeworks\obj\Debug\net6.0\ref\LabsAndHomeworks.dll

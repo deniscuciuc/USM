@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0faebfa-2d55-47ae-97be-af352dd9240f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/.idea/.idea.Learn2DGames/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/.idea/.idea.Learn2DGames/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/.idea/.idea.Learn2DGames/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/.idea/.idea.Learn2DGames/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/.vsconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Fireball.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Fireball/Fireball.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Fireball/Fireball.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Fireball/Fireball_Explode.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Fireball/Fireball_Explode.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Fireball/Fireball_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Fireball/Fireball_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/Player.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/Player.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/animations/Attack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/animations/Attack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/animations/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/animations/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/animations/Jump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/animations/Jump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/animations/Run.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/animations/Run.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/attack_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/attack_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/attack_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/attack_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/attack_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/attack_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/crouch_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/crouch_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/crouch_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/crouch_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/crouch_ATK_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/crouch_ATK_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/crouch_ATK_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/crouch_ATK_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/crouch_ATK_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/crouch_ATK_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_003.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_004.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_005.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_006.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_007.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_008.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_009.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/die_010.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/dizzy_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/dizzy_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/dizzy_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/dizzy_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/dizzy_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/dizzy_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/flyKick_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/flyKick_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/flyKick_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/flyKick_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/flyKick_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/flyKick_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/flyKick_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/flyKick_04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/flyKick_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/flyKick_05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/flyKick_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/flyKick_06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/hurt_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/hurt_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/hurt_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/hurt_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/idle_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/idle_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/idle_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/idle_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/idle_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/idle_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/idle_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/idle_04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/idle_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/idle_05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/idle_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/idle_06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/jumpATK_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/jumpATK_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/jumpATK_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/jumpATK_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/jumpATK_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/jumpATK_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/jump_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/jump_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/jump_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/jump_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/strike_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/strike_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/strike_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/strike_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/strike_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/strike_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/strike_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/strike_04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/strike_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/strike_05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/walk_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/walk_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/walk_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/walk_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/walk_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/walk_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/walk_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/walk_04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/walk_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/walk_05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/walk_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/walk_06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/win_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/win_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/win_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Player/sprites/win_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Traps/Saw/Saw.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Animations/Traps/Saw/Saw.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Prefabs/levels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Prefabs/levels/Wall.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Prefabs/levels/Wall.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Prefabs/skills.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Prefabs/skills/Fireball.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Prefabs/skills/Fireball.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Health.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Health/HealthBar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Health/HealthBar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Health/Heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Health/Heart.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Background.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Background/Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Background/Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Background/Brown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Background/Brown.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Background/Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Background/Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Background/Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Background/Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Background/Pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Background/Pink.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Background/Purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Background/Purple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Background/Yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Background/Yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box1/Break (28x24).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box1/Break (28x24).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box1/Hit (28x24).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box1/Hit (28x24).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box1/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box1/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box2/Break (28x24).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box2/Break (28x24).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box2/Hit (28x24).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box2/Hit (28x24).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box2/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box2/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box3/Break (28x24).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box3/Break (28x24).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box3/Hit (28x24).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box3/Hit (28x24).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box3/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Boxes/Box3/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints/End.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints/End/End (Idle).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints/End/End (Idle).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints/End/End (Pressed) (64x64).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints/End/End (Pressed) (64x64).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints/Start.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Idle).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Idle).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Moving) (64x64).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Moving) (64x64).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Apple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Apple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Bananas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Bananas.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Cherries.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Cherries.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Collected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Collected.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Kiwi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Kiwi.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Melon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Melon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Orange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Pineapple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Pineapple.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Strawberry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Items/Fruits/Strawberry.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Appearing (96x96).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Appearing (96x96).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Desappearing (96x96).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Desappearing (96x96).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Mask Dude.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Double Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Double Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Fall (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Fall (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Hit (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Hit (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Idle (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Idle (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Run (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Run (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Wall Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Wall Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Ninja Frog.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Double Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Double Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Fall (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Fall (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Hit (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Hit (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Idle (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Idle (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Run (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Run (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Wall Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Wall Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Pink Man.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Pink Man/Double Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Pink Man/Double Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Pink Man/Fall (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Pink Man/Fall (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Pink Man/Hit (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Pink Man/Hit (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Pink Man/Idle (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Pink Man/Idle (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Pink Man/Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Pink Man/Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Pink Man/Run (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Pink Man/Run (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Pink Man/Wall Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Pink Man/Wall Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Virtual Guy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Fall (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Hit (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Hit (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Run (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Other.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Other/Confetti (16x16).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Other/Confetti (16x16).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Other/Dust Particle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Other/Dust Particle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Other/Shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Other/Shadow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Other/Transition.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Other/Transition.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Terrain.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Terrain/Terrain (16x16) 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Terrain/Terrain Sliced (16x16).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Terrain/Terrain Sliced (16x16).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Arrow.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Arrow/Hit (18x18).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Arrow/Hit (18x18).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Arrow/Idle (18x18).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Arrow/Idle (18x18).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Blocks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Blocks/HitSide (22x22).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Blocks/HitSide (22x22).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Blocks/HitTop (22x22).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Blocks/HitTop (22x22).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Blocks/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Blocks/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Blocks/Part 1 (22x22).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Blocks/Part 1 (22x22).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Blocks/Part 2 (22x22).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Blocks/Part 2 (22x22).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Falling Platforms.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Falling Platforms/Off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Falling Platforms/Off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Falling Platforms/On (32x10).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Falling Platforms/On (32x10).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Fan.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Fan/Off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Fan/Off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Fan/On (24x8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Fan/On (24x8).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Fire.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Fire/Hit (16x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Fire/Hit (16x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Fire/Off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Fire/Off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Fire/On (16x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Fire/On (16x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Platforms.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Platforms/Brown Off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Platforms/Brown Off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Platforms/Brown On (32x8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Platforms/Brown On (32x8).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Platforms/Chain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Platforms/Chain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Platforms/Grey Off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Platforms/Grey Off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Platforms/Grey On (32x8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Platforms/Grey On (32x8).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Rock Head.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Rock Head/Blink (42x42).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Rock Head/Blink (42x42).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Rock Head/Bottom Hit (42x42).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Rock Head/Bottom Hit (42x42).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Rock Head/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Rock Head/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Rock Head/Left Hit (42x42).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Rock Head/Left Hit (42x42).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Rock Head/Right Hit (42x42).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Rock Head/Right Hit (42x42).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Rock Head/Top Hit (42x42).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Rock Head/Top Hit (42x42).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Sand Mud Ice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Ice Particle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Ice Particle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Mud Particle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Mud Particle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Sand Mud Ice (16x6) 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Sand Mud Ice (16x6) 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Sand Mud Ice Sliced (16x6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Sand Mud Ice Sliced (16x6).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Sand Particle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Sand Mud Ice/Sand Particle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Saw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Saw/Chain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Saw/Chain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Saw/Off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Saw/Off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Saw/On (38x38).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Saw/On (38x38).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spike Head.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spike Head/Blink (54x52).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spike Head/Blink (54x52).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spike Head/Bottom Hit (54x52).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spike Head/Bottom Hit (54x52).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spike Head/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spike Head/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spike Head/Left Hit (54x52).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spike Head/Left Hit (54x52).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spike Head/Right Hit (54x52).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spike Head/Right Hit (54x52).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spike Head/Top Hit (54x52).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spike Head/Top Hit (54x52).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spiked Ball.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spiked Ball/Chain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spiked Ball/Chain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spiked Ball/Spiked Ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spiked Ball/Spiked Ball.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spikes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spikes/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Spikes/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Trampoline.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Trampoline/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Trampoline/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Trampoline/Jump (28x28).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Assets/Traps/Trampoline/Jump (28x28).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Scenes/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Resources/Pixel Adventure 1/Scenes/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Camera.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Camera/CameraController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Camera/CameraController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Dangers/Enemy_Sideways.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Environment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Environment/Door.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Environment/Door.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Player/Health.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Player/Health/Die.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Player/Health/Die.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Player/Health/Health.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Player/Health/HealthBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Player/Health/HealthBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Player/Health/HealthCollectible.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Player/Health/Hurt.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Player/Health/Hurt.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Player/PlayerAttack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Player/PlayerAttack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Player/PlayerMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Player/Projectile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Scripts/Player/Projectile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/DemoSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/DemoSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Dragon Warrior AI.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Dragon Warrior AI.ai.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Dragon Warrior EPS.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Dragon Warrior EPS.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Dragon Warrior PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/dashwind_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/dashwind_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/dashwind_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/dashwind_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/dashwind_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/dashwind_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/dashwind_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/dashwind_04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/dashwind_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/dashwind_05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/dashwind_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/dashwind_06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/explosion_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/explosion_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/explosion_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/explosion_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/explosion_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/explosion_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/explosion_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/explosion_04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/explosion_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/explosion_05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/explosion_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/explosion_06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/fireball_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/fireball_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/fireball_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/fireball_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/fireball_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/fireball_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/iblast_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/iblast_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/iblast_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/iblast_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/iblast_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/iblast_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/particlel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/particlel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/potion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Effects/potion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Read Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Assets/Sprites/Character/Read Me.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/04/04a25827d2abac25f2a1a8bbec7af941" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/0b/0b7256c165e7df66e069434ca20f215d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/0c/0cd3c7109397df17ced5641dc1e130ef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/0e/0e3b7565fc83af76d5ba3a1bf7a3f6b5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/0f/0f7381dfb1689e058d5ede95958bc396" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/12/1238a4941ef2fbf22613e4f31816973a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/13/133761e204e64eccb94a9b0476f76e62" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/13/13e94d3a855560ff5795046e9a39d94d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/16/164f208bc59081d5b7f5c4ec5791947b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/16/1659e804b006ab9d3b6626f522c134fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/17/1780a93cf918c63aa438436c6adf1ca7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/1b/1b6d4d54adc0ce7c9bc70e55a590a877" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/1b/1bb5ecb41900e1c8bb4ecdd0b05e8248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/1c/1c8546923b994464e32e887a9edbdc73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/1d/1d7609680e5c22933946ec55b4fd8168" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/1e/1e5406a7fb16ea4c9e74210db968e76d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/21/2178a8a0fa8308fcfa83c6c3cf779a0c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/24/2423e6d357b6bc8d3cb56509d3e00c1b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/25/2537565ec06d30df6d5f4cbefb3caa31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/26/262c436a17cbfc7acdfa6fed9ceca737" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/29/29ce344c2f961d792a7f9f5ca6924560" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/2e/2ea53b6808ba5d5fba564055d6efb2be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/31/31c4cd682894053bab9ed26170f4792a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/34/348412016ae70843a17f8e3a9177f9cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/39/39140aeb6cdad34870aec01a72c03ed9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/3a/3a9e3c6e80c62a57d8c5d1d0ad63dfe5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/3c/3c9a9b8a4912e07c7e6942a303033a80" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/3c/3ceff62a44ad84ddf28e9d17ba85c144" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/3d/3d0d1ad7236d9a577be4944124c30cb9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/3d/3d2cb0945406343a7a766085762a1676" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/3e/3e73179989f9e12dcff4d01dd9b27c36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/41/416beb1e066969c0116290ce798c5ae5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/43/435b2a4ea27f9db9cb976be6e53d344d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/43/437d09f033f7bc5ef4808c6c907a716b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/44/4455e16797443fede60e5dbb57f5f654" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/45/45a5ccb87b16b4c107ab66ccfe594310" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/48/4825db2d8000e5205f66059fdbd95adb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/49/49e4c65ea958c1306b894113a4f128d8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/4c/4c80c36d88ed0321f18b95e0aa2b6d2e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/4d/4d2dfd3b21016edfa147cc68e65fa1e2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/50/50227183af58ab2f3e81ed722c6c17be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/50/50c4cf1822cc4b2c3c017cd1a38bd565" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/56/56db36f304b286d32e60e2e502db988b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/5d/5d3c2585e9c32029eb38254714ba309b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/5e/5efe3d8949e85cf70631f703531863e6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/5f/5f0ab5d1ac6022ed897fd283ed05df63" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/5f/5f77346d9f2183d1acf9ca1d21301d6a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/5f/5f784693634ec492fe4c2f8eefde8e8e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/62/62566f34ac9729f57c5d00e474ebf7c9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/63/63aa8a69c1c12208012d31832780754f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/65/65e0a03efe5aa5b58457ebae4793c8af" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/66/66481b14fbe8d5ec0213087f94287600" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/6c/6ce960225a23994d6ec84ceeda11e8d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/75/7593dc113b44d0283cb7b3b580dd477d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/76/767665c5eaa9c4fb5b4044cb3c25a68c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/7b/7babca03e858261ce75e021bc617d04c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/7b/7bb2c2b5de3699192d6be663bdd9fda9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/7d/7d0ddb04467a3bf3dc151ee1e6241de5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/7e/7eeb04335e9df72b95965d442def6fa7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/7f/7f7d56b458eb471bb31a77a8aeb7ad64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/80/8008b4964d22fdf7fdacf95f4b17c9f9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/80/80597568d2a47c6a03cf369eed248a4c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/85/859fe47dfb362bb6e4555de3e3011ba5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/86/8601fe43a15a7655ffa0af07efdff18b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/87/87efa5c44aa06f1c37f74dba49bcd31a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/8b/8ba56192669ff40976f460436ed02b93" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/8c/8cc937c7d5e958a2ae36378985b17ded" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/8e/8e7d80d57a0f742379c8e503cfd91d78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/8e/8ef0bd1c004aa10b44f700ad75f5c4be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/8f/8f288e0641a6cd0762f09d139848cac1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/8f/8fdfa62be6beb445429bd094189c8820" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/90/9073819a81fa0537c75801e4df19cdc9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/90/90ac085ecdb74a4b01cafb75503e200e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/90/90dd49d63b8cc228d4438650fc0447f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/92/926f5e4d109e30b3db242dc5995de273" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/92/92889577e2e61e7d051f4df57e7021cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/94/94c670d06336a9442b6e52faeb3fae42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/98/981695e62f8dc1a194ab8c2f3fbba7f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/98/988d163539bb4f9f81d55d804af2468f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/98/98977ad8f451736d1ec72ff95518a661" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/98/98b8558a36e5c1156844a69aca6eaa4d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/9a/9a59fb5edb793c87fdc679eebb0faa02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/9a/9acae14b88cf377f165778c84125e77c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/9e/9e513ebcd89c5a336b67645703d65396" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/a0/a08a569ad7ac10cba2ebccecfb31ca34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/a0/a0b023a08f84593759c56421f6034bbd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/a0/a0fedff39074e0f771aee17c4705b416" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/a6/a6af2c4f7fe2139d55e7265bf76b75ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/a9/a94c5ca967b62007118ab41194f3e689" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/aa/aa241c0b9aec2ed6f9613af45ecdb6b6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/ac/accac7b63ddb526100d6d9dceb9c4d13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/ad/ad72f581a8eab9254bb98c2bf762c7f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/ae/ae0a32074c90138f957f5fb2fbcc622c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/ae/aeb2823b714f1b1d285d5e0093a0cbf9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/af/afe6bc877887e77f4846914b0f33a6c7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/b0/b0118ee7781aabbee383adfb41775f9e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/b2/b23d9084df98038a86ebf67a92c1470a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/b2/b2c18a94ea1e415afcded174ed784dcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/b4/b48b22d448f84a57319faa9107fd8c83" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/bb/bbd90ad1aef1c0aabc717f5856645cc2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/bb/bbee93d40cc425c410ddbbc35b0832a8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/bc/bc9db36faf77508d0d57c20e660cf879" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/c8/c818d8b96b06383665a19a2f630c92cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/c8/c82e167081e3225d78325f95af20cbeb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/cd/cd86fe1af8a67251824e841803339e63" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/ce/ce6c3dad5bbd8aa7ece48f6d2f947e74" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/ce/cee3dd26397546325af944082a37a36d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/cf/cfee5ee118841799b9f1416af52354ba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/d0/d02ba83a3e8c97c1948cac1d9dbe565a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/d1/d1f73854371083382e8e81100b845a44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/d2/d2c1467b3b62b9949eeac04baf91527f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/d2/d2d81fe2c9ec1157fc3a955038549709" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/d4/d46f019dd9cecda136f87d5bbb4276f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/d5/d571f9bc99a3151edb347d6fd6581792" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/d5/d58fabbf58eda60b6bdd34abfae6ab0c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/d5/d5c8126ed7980762ea10897ef05f3c13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/d6/d66de97c2fc46c3ffab4801de7bd7357" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/da/da1e09a8478031471bf5c6d7b9e0471c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/db/db787d1c261d97a126abac657891a42f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/dc/dc17151c8f304b3a753ff2e108c15694" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/dc/dc36f5e45205ec5fbe22a224425bf835" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/dc/dc7d6f17faa3728df816a14c63debe92" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/dc/dcd8d5ec71a806a6937615c963d9bf18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/dd/dd80ef45e018d549ff450119042eb9ad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/df/dfaaa56037e9dc935f32ee2be15bb80b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/e0/e0d651d6128a436f94353f450fc6a7a7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/e1/e106204f704df7a9173ba9b606bc3586" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/e2/e29705f3f25bc3ce85c350fbf9cd1a00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/e3/e374115c83f53f99d84636605e6683d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/e4/e4f77c922df999483e89ba63946f0d83" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/e5/e5bf93fc42296ff6ff874bd20610316d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/e5/e5e816b68972306d79bea4871e8760b9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/e7/e765e15880e59358be8cd9c2b14d0064" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/ea/eacdb7ff60836472fb75f233f22bafe1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/eb/eb129055e619bd3b9d88bf86b2b02b3a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/ed/ed0ab1bf8b8e968c7a94c2f31e102619" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/ef/eff9bf1d178f3074c39e18146c4fe98e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/f2/f2f312495370049f8035cfb1d8848668" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/f5/f5477f4b4c8cbb576ac4a65401af58fa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/f6/f6668cc2d4643ad81aedab4a8f2e9b50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/f6/f6be785640bcd740d1bada12eda09278" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/fd/fd6959246dcbe69b4ac3116e22c86542" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/fd/fd6d7749849aa0303618e8a19c3997ad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/fe/fe3234903b15c45f5898b569438aa616" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/Artifacts/fe/fe92ba93d82c25ce8bef8419baa272f1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/PlayModeViewStates/71c86dec160c91643ae69a314df87369" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/PlayModeViewStates/d1d0250d7dfcb924cb4160d7e67915eb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/ShaderCache/builtin/unity_builtin_extra0000/00/0b9536428bdbcbde20538a9390d7717f.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/ShaderCache/builtin/unity_builtin_extra0000/00/467fefdc59321dd3ac9f7bfc283fcf58.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/ShaderCache/builtin/unity_builtin_extra0000/00/6f4faab89e8f7addc955ba1e067b8295.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/ShaderCache/builtin/unity_builtin_extra0000/00/fd6f4ec098e3249f130ffb1be22cbb6c.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/StateCache/PrefabStageHierarchy/72/725da6a2879465ffb48ffeb2cd473b8b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Library/StateCache/SceneView/66/668df89cf0d8cac3bbc2493862be5895.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Packages/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/Packages/packages-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/AudioManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/EditorSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/InputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/MemorySettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/NetworkManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/PresetManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/ProjectVersion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/QualitySettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/SceneTemplateSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/TagManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/TimeManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/URPProjectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/VFXManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/VersionControlSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/XRSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/ProjectSettings/boot.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/UserSettings/Search.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2D Games with Unity/Learn2DGames/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2LSXWxbYaau1oGhvAArDIMhA7Ob" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0faebfa-2d55-47ae-97be-af352dd9240f" name="Changes" comment="" />
+      <created>1675865494262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675865494262</updated>
+      <workItem from="1675865496695" duration="12000" />
+      <workItem from="1675865533335" duration="78000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
