@@ -7,13 +7,24 @@ public class DialogWithNPC
         Console.Write("Enter you name to get greetings from elf : ");
         var name = Console.ReadLine();
         
-        String greetings = "Hi traveler. I know who you are. Glory runs ahead of you \n" +
+        Console.Write("Also your current level: ");
+        var level = Convert.ToInt32(Console.ReadLine());
+
+        var currentPlayer = new Player(name, level);
+
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.Write("Dobby: ");
+        Console.ForegroundColor = ConsoleColor.White;
+        var greetings = " Hi traveler. I know who you are. Glory runs ahead of you \n" +
                            "My name is Dobby, I'm elf, and your name is " + name +
                            ".\nI have one quest for you but I need to know what lvl do you have.";
         Console.WriteLine(greetings);
         
-        Console.Write("Dobby asks your level (1-10) : ");
-        var level = Convert.ToInt32(Console.ReadLine());
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.Write("You:");
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.Write(" My current level is " + currentPlayer.Level);
+        
 
         if (level < 7)
         {
