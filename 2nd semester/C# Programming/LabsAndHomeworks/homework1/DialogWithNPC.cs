@@ -12,20 +12,17 @@ public class DialogWithNPC
 
         var currentPlayer = new Player(name, level);
 
-        Console.ForegroundColor = ConsoleColor.Blue;
-        Console.Write("Dobby: ");
-        Console.ForegroundColor = ConsoleColor.White;
+        displaySpeaker("Dobby");
         var greetings = " Hi traveler. I know who you are. Glory runs ahead of you \n" +
                            "My name is Dobby, I'm elf, and your name is " + name +
                            ".\nI have one quest for you but I need to know what lvl do you have.";
         Console.WriteLine(greetings);
         
-        Console.ForegroundColor = ConsoleColor.Blue;
-        Console.Write("You:");
-        Console.ForegroundColor = ConsoleColor.White;
-        Console.Write(" My current level is " + currentPlayer.Level);
+        displaySpeaker("You");
+        Console.Write(" My current level is " + currentPlayer.Level + "\n");
         
 
+        displaySpeaker("Dobby");
         if (level < 7)
         {
             Console.WriteLine("Your level is too low. You need at least level 7 to be able to help me.");
@@ -35,5 +32,12 @@ public class DialogWithNPC
             Console.WriteLine("I need you to go to the troll cave and bring me whatever magic rings you find.\n" +
                               "You can keep the rest treasures.");
         }
+    }
+
+    private void displaySpeaker(String speaker)
+    {
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.Write(speaker + ": ");
+        Console.ForegroundColor = ConsoleColor.White;
     }
 }
