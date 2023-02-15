@@ -156,13 +156,13 @@
 
       <h1>Задача 5</h1>
 
-      <p>Date personale</p>
+      <p><strong>Date personale</strong></p>
       <form>
             *Numele: <input pattern="[a-zA-Z\s]+" type="text" title="Only letters allowed" required> <br>
             *Prenumele: <input pattern="[a-zA-Z\s]+" type="text" title="Only letters allowed" required> <br>
             Email: <input type="email"> <br>
             *Data nasterii <input type="date" required> <br>
-            Sexul: <input type="radio" name="gender" value="F"> <input type="radio" name="gender" value="M"> <br>
+            Sexul: <input type="radio" name="gender" value="F"> F <input type="radio" name="gender" value="M"> M <br>
             Telefonul: <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" title="Only numbers allowed"> <br>
             Raionul:
             <select>
@@ -184,8 +184,63 @@
 
             Suplimentar: <textarea maxlength="1000" cols="20" rows="5"></textarea> <br>
 
-            <input type="submit">
+            <br><br>
+
+            <strong>Date despre produsul ales</strong>
+            <br>
+            *Denumirea produs: <input pattern="[a-zA-Z\s]+" type="text" title="Only letters allowed" required> <br>
+            *Producatorul: <input pattern="[a-zA-Z\s]+" type="text" title="Only letters allowed" required> <br>
+            *Cantitatea de produse: <input value="1" min="1" type="number" title="Only numbers" required> <br>
+            *Culoarea: <input type="color" required> <br>
+            *Marimea: <input type="text" required> <br>
+
+            <br><br>
+
+            <strong>Date bancare</strong>
+            <br>
+            *Tipul cardului: <input type="radio" name="card" value="Visa" required> Visa
+            <input type="radio" name="card" value="Mastercard" required> Mastercard <br>
+            *Numarul cardului: <input type="text" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" title="Only numbers allowed" required> <br>
+            *Expira <input type="date" required> <br>
+
+            <br>
+            <input type="reset" value="Anuleaza">
+            <input type="submit" value="Trimite">
       </form>
+
+      <br><br><br>
+      <hr>
+      <br><br><br>
+
+      <h1>Задача 6</h1>
+      <p>Universitatea de Stat din Moldova</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10880.285802820854!2d28.8230857!3d47.0192025!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd8e8b74ac8c3ef7b!2sUniversitatea%20de%20Stat%20din%20Moldova!5e0!3m2!1sen!2s!4v1676491205656!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <br><br><br>
+      <hr>
+      <br><br><br>
+
+      <h1>Задача 6</h1>
+
+      <p>Аудио с форматом - ogg</p>
+      <audio controls>
+            <source src="audio/avicii-song.ogg" type="audio/ogg">
+      </audio>
+
+      <p>Аудио с форматом - mp3</p>
+      <audio controls>
+            <source src="audio/avicii-song.mp3" type="audio/mpeg">
+      </audio>
+
+      <p>Видео с форматом - mp4 </p>
+      <video controls width="300">
+            <source src="video/ghendalf-meme-song.mp4" type="video/mp4">
+      </video>
+
+      <p>Видео с форматом - ogv </p>
+      <video controls width="300">
+            <source src="video/ghendalf-meme-song.ogv" type="video/ogg">
+      </video>
 </body>
 
 </html>
