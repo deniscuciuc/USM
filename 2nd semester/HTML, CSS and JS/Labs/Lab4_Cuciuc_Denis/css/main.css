@@ -1,0 +1,30 @@
+.block-parent {
+     display:flex;
+}
+
+.block {
+     width: 150px;
+     height: 150px;
+     border-radius: 10px;
+     margin-left: 20px;
+}
+
+.block1 {
+     background-color: red;
+}
+
+.block2 {
+     background-color: black;
+}
+
+.block3 {
+     background-color: pink;
+}
+
+.block4 {
+     background-color: green;
+}
+
+.block5 {
+     background-color: lightblue;
+}
