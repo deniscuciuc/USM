@@ -1,5 +1,6 @@
+/* Задача 1 - блоки с картинками */
 .block-parent {
-     display:flex;
+     display: flex;
 }
 
 .block {
@@ -15,16 +16,39 @@
 
 .block2 {
      background-color: black;
+     background-image: url(../images/tiny-heart.png);
+     background-size: 15px;
+     background-repeat: space;
 }
 
 .block3 {
      background-color: pink;
+     background-image: url(../images/tiny-heart.png);
+     background-size: 15px;
+     background-repeat: repeat-x;
 }
 
 .block4 {
      background-color: green;
+     background-image: url(../images/tiny-heart.png);
+     background-size: 15px;
+     background-repeat: repeat-y;
 }
 
 .block5 {
      background-color: lightblue;
+     background-image: url(../images/tiny-heart.png);
+     background-size: 15px;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+/* Задача 2 - форма ввода данных */
+
+.form-data {
+     margin-left: 15%;
+}
+
+.form-data fieldset legend {
+     font-weight: bold;
 }
