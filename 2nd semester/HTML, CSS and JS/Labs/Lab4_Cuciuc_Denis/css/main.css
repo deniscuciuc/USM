@@ -46,9 +46,135 @@
 /* Задача 2 - форма ввода данных */
 
 .form-data {
-     margin-left: 15%;
+     width: 700px;
+     margin-left: 25%;
 }
 
 .form-data fieldset legend {
      font-weight: bold;
 }
+
+.form-data__personal-data {
+     width: 350px;
+}
+
+.form-data__product-data {
+     width: 400px;
+}
+
+.form-data__personal-data fieldset {
+     height: 350px;
+}
+
+.form-data__personal-data input {
+     border-radius: 10px;
+     background-color: black;
+     color: white;
+}
+
+.form-data__input-section {
+     padding-top: 25px;
+     display: flex;
+     justify-content: center;
+}
+
+.form-data__product-data {
+     padding-left: 10px;
+}
+
+.form-data__send-reset {
+     padding-top: 5px;
+     padding-left: 3px;
+}
+
+.form-data label {
+     color: red;
+}
+
+.form-data option {
+     color: white;
+     background-color: black;
+}
+
+.form-data__product-data fieldset {
+     border-radius: 10px;
+     border-color: red;
+     border-style: dotted;
+}
+
+.form-data__send-reset input {
+     color: white;
+     border-radius: 10px;
+     background-color: black;
+}
+
+.form-data__input-section input:focus {
+     background-color: red;
+     color: white;
+}
+
+.form-data__send-reset input:hover {
+     color: red;
+     border-radius: 0px;
+     background-color: purple;
+     cursor: pointer;
+}
+
+ol li::selection {
+     color: yellow;
+     background-color: red;
+}
+
+ol li::before {
+     content: "This is list ";
+     color:red;
+}
+
+ol li::after {
+     content: " This is after list";
+     color:blue;
+}
+
+ol li:first-child {
+     font-size: 21px;
+}
+
+ol li:last-child {
+     font-size: 36px;
+}
+
+ul li::first-line {
+     color: blue;
+     font-weight: bolder;
+     font-size: 18px;
+}
+
+ul li::first-letter {
+     color: red;
+     font-weight: bolder;
+     font-size: 18px;
+}
+
+a:hover {
+     background-color: white;
+     color: purple;
+     font-size: 35px;
+     font-weight: bolder;
+}
+a:active {
+     background-color: white;
+     color: brown;
+     font-size: 21px;
+}
+
+a:visited {
+     background-color: white;
+     color: purple;
+     text-decoration: none;
+}
+
+a:link {
+     background-color: yellow;
+     color: blue;
+}
+
