@@ -1,0 +1,260 @@
+/* Формма ввода данных */
+
+.form-data {
+     width: 700px;
+     margin-left: 25%;
+}
+
+.form-data fieldset legend {
+     font-weight: bold;
+}
+
+.form-data__personal-data {
+     width: 350px;
+}
+
+.form-data__product-data {
+     width: 400px;
+}
+
+.form-data__personal-data fieldset {
+     height: 350px;
+}
+
+.form-data__personal-data input {
+     border-radius: 10px;
+     background-color: black;
+     color: white;
+}
+
+.form-data__input-section {
+     padding-top: 25px;
+     display: inline-flex;
+     flex-direction: row;
+     justify-content: center;
+     background: radial-gradient(#e66465, #9198e5);
+}
+
+.form-data__product-data {
+     padding-left: 10px;
+}
+
+.form-data__send-reset {
+     padding-top: 5px;
+     padding-left: 3px;
+}
+
+.form-data label {
+     color: red;
+}
+
+.form-data option {
+     color: white;
+     background-color: black;
+}
+
+.form-data__product-data fieldset {
+     border-radius: 10px;
+     border-color: red;
+     border-style: dotted;
+}
+
+.form-data__send-reset input {
+     color: white;
+     border-radius: 10px;
+     background-color: black;
+}
+
+.form-data__input-section input:focus {
+     background-color: red;
+     color: white;
+}
+
+.form-data__send-reset input:hover {
+     color: red;
+     border-radius: 0px;
+     background-color: purple;
+     cursor: pointer;
+}
+
+ol li::selection {
+     color: yellow;
+     background-color: red;
+}
+
+ol li::before {
+     content: "This is list ";
+     color: red;
+}
+
+ol li::after {
+     content: " This is after list";
+     color: blue;
+}
+
+ol li:first-child {
+     font-size: 21px;
+}
+
+ol li:last-child {
+     font-size: 36px;
+}
+
+ul li::first-line {
+     color: blue;
+     font-weight: bolder;
+     font-size: 18px;
+}
+
+ul li::first-letter {
+     color: red;
+     font-weight: bolder;
+     font-size: 18px;
+}
+
+a:hover {
+     background-color: white;
+     color: purple;
+     font-size: 35px;
+     font-weight: bolder;
+}
+
+a:active {
+     background-color: white;
+     color: brown;
+     font-size: 21px;
+}
+
+a:visited {
+     background-color: white;
+     color: purple;
+     text-decoration: none;
+}
+
+a:link {
+     background-color: yellow;
+     color: blue;
+}
+
+.table-task2 {
+     background: repeating-radial-gradient(#e66465, #9198e5 20%);
+}
+
+.audios {
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+}
+
+.audio-1__ogg {
+     flex: 25%;
+     background: conic-gradient(red, orange, yellow, green, blue);
+     transform: rotate(90deg);
+}
+
+.audio-2__mp3 {
+     flex: 50%;
+     background: repeating-conic-gradient(red 0%,
+               yellow 15%,
+               red 33%);
+     transform: rotate(-15deg);
+     transform: scale(0.7, 0.4);
+}
+
+
+.videos {
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+}
+
+.video-1__mp4 {
+     flex: 50%;
+     background: repeating-linear-gradient(#e66465, #e66465 20px, #9198e5 20px, #9198e5 25px);
+}
+
+.video-2__ogv {
+     flex: 50%;
+     background: linear-gradient(#e66465, #9198e5);
+     transform: skew(15deg, 15deg);
+}
+
+.target {
+     font-size: 14px;
+     transition: font-size 4s 1s;
+}
+
+.target:hover {
+     font-size: 36px;
+}
+
+iframe {
+     transform: translate(100px, 100px);
+}
+
+.animation-block1 {
+     width: 100px;
+     height: 100px;
+     background: red;
+     animation: animation1 5s infinite;
+}
+
+.animated-text {
+     animation-duration: 3s;
+     animation-name: animated-text;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
+
+@keyframes animation1 {
+     0% {
+          margin-left: 0px;
+     }
+
+     25% {
+          width: 115px;
+          background: blue;
+          margin-left: 400px;
+     }
+
+     75% {
+          height: 600px;
+          background: purple;
+          margin-left: 50px
+     }
+
+     100% {
+          width: 100px;
+          height: 100px;
+          margin-left: 0px;
+     }
+}
+
+@keyframes animated-text {
+     from {
+          margin-left: 100%;
+          width: 300%;
+     }
+
+     to {
+          margin-left: 0%;
+          width: 100%;
+     }
+}
+
+
+@media (max-width: 800px) {
+
+     /* Первый способ адаптировать с помощью flex-direction */
+     .form-data__input-section {
+          flex-direction: column;
+     }
+
+     /* Второй способ адаптировать через процентаж флекса (сколько заполняет пространства) */
+     .video-1__mp4,
+     .video-2__ogv,
+     .audio-1__ogg,
+     .audio-2__mp3 {
+          flex: 100%;
+     }
+}
