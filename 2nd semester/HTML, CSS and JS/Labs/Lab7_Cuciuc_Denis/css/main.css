@@ -1,0 +1,14 @@
+.images-container {
+      margin-left: 40%;
+      width: 300px;
+      height: 300px;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      background-repeat: no-repeat;
+}
+
+.images-container div {
+      width: 100px;
+      height: 100px;
+      border: 1px solid black;
+}
