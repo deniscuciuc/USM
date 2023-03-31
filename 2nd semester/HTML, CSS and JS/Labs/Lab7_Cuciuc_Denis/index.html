@@ -4,7 +4,7 @@
 <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title></title>
+      <title>Laborator №7</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="css/main.css">
@@ -16,6 +16,8 @@
 
       <br><br>
       <h2>Задача 3 </h2>
+      <button onclick="removeBorderFromTable()">Убрать границы таблицы</button>
+      <button onclick="addBorderToTable()">Вернуть границы таблицы</button>
       <div id="images-container" class="images-container">
             <div onmouseover="changeBgImage(this)" onmouseout="restoreBgImage()" id="image1" class="image-div"></div>
             <div onmouseover="changeBgImage(this)" onmouseout="restoreBgImage()" id="image2" class="image-div"></div>
@@ -27,7 +29,21 @@
             <div onmouseover="changeBgImage(this)" onmouseout="restoreBgImage()" id="image8" class="image-div"></div>
             <div onmouseover="changeBgImage(this)" onmouseout="restoreBgImage()" id="image9" class="image-div"></div>
       </div>
+
+      <br><br>
+      <h2>Задача 3</h2>
+      <p id="text">Текст который будет изменен по нажатию клавиши - <bold>A</bold>
+      </p>
       <script src="js/script.js" async defer></script>
+
+
+      <br><br>
+      <h2>Задача 4</h2>
+      <form>
+            <label>Enter your birth date:</label>
+            <input type="date" id="birthDate">
+            <button type="button" onclick="displayResult()">Submit</button>
+      </form>
 </body>
 
 </html>

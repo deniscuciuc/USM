@@ -64,3 +64,68 @@ function restoreBgImage() {
       let imagesContainer = document.getElementById('images-container');
       imagesContainer.style.backgroundImage = 'none';
 }
+
+function removeBorderFromTable() {
+      var nodes = document.getElementById('images-container').childNodes;
+      for (var i = 0; i < nodes.length; i++) {
+            if (nodes[i].nodeName.toLowerCase() == 'div') {
+                  nodes[i].style.border = '0px solid black';
+            }
+      }
+}
+
+function addBorderToTable() {
+      var nodes = document.getElementById('images-container').childNodes;
+      for (var i = 0; i < nodes.length; i++) {
+            if (nodes[i].nodeName.toLowerCase() == 'div') {
+                  nodes[i].style.border = '1px solid black';
+            }
+      }
+}
+
+
+// TASK 4 - if pressed letter A then change styles
+
+
+const myParagraph = document.getElementById('text');
+const originalStyles = {
+      fontSize: myParagraph.style.fontSize,
+      backgroundColor: myParagraph.style.backgroundColor,
+      border: myParagraph.style.border,
+};
+
+
+document.addEventListener('keydown', (event) => {
+      if (event.code === 'KeyA') {
+            myParagraph.style.fontSize = '24px';
+            myParagraph.style.backgroundColor = 'yellow';
+            myParagraph.style.border = '2px solid black';
+      }
+});
+
+
+document.addEventListener('keyup', (event) => {
+      if (event.code === 'KeyA') {
+            myParagraph.style.fontSize = originalStyles.fontSize;
+            myParagraph.style.backgroundColor = originalStyles.backgroundColor;
+            myParagraph.style.border = originalStyles.border;
+      }
+});
+
+
+// Task 5
+
+function displayResult() {
+      const birthDate = new Date(document.getElementById('birthDate').value);
+      const now = new Date();
+      const ageInMilliseconds = now - birthDate;
+      const ageInYears = ageInMilliseconds / (365 * 24 * 60 * 60 * 1000);
+
+      const wantAnswerNow = confirm('Хочешь ответ сейчас?');
+      if (wantAnswerNow) {
+            alert(`Твой возраст ${Math.floor(ageInYears)} в годах.`);
+      } else {
+            const currentDateString = now.toDateString();
+            alert(`Текущая дата ${currentDateString}.`);
+      }
+}

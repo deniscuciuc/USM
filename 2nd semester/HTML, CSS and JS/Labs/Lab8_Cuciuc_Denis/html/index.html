@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Laborator №8</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+      <h2>Задача 1</h2>
+      <button onClick="copyParagraphToHeader()">Перенести текст из параграфа в header ниже</button>
+      <br><br>
+      <p id="paragprahToCopyFrom">Тут находится текст который будет скопирован в header</p>
+      <h3 id="headerToCopyTo">Тут после нажатия кнопки появится текст из параграфа выше</h3>
+
+      <br>
+      <hr>
+      <br>
+      <h2>Задача 2</h2>
+      <br>
+      <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+      </ol>
+      <button onclick="copyAndModifyList()">Превратить ol список в div и изменить тип нумерации</button>
+
+      <br>
+      <hr>
+      <br>
+      <h2>Задача 3</h2>
+      <br>
+      <img id="imageToBeChanged" src="../images/image.png" width="300" height="200">
+      <br>
+      <button onclick="changeImageProperties()">Изменить свойства картинки</button>
+
+      <br>
+      <hr>
+      <br>
+      <h2>Задача 4</h2>
+      <br>
+      <img id="imageToBeTransformed" src="../images/image.png" width="300" height="200">
+      <br>
+      <button onclick="applyTransform()">Выполнить трансоформацию</button>
+
+      <br>
+      <hr>
+      <br>
+      <h2>Задача 5</h2>
+      <br>
+      <img id="imageToBeAnimated" src="../images/image.png" width="200" height="200">
+      <button onclick="switchAnimation()">Switch Animation</button>
+
+
+      <script src="../js/task1.js"></script>
+      <script src="../js/task2.js"></script>
+      <script src="../js/task3.js"></script>
+      <script src="../js/task4.js"></script>
+      <script src="../js/task5.js"></script>
+</body>
+
+</html>
