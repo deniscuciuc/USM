@@ -1,18 +1,33 @@
-﻿namespace LabsAndHomeworks.lab1;
+﻿using System.Runtime.CompilerServices;
+
+namespace LabsAndHomeworks.lab1;
 
 public class Transport
 {
     // Required fields
     private int numberOfPassengers;
-    private List<int> weightOfEachPassenger;
+    private List<int> weightOfEachPassenger { get; set; }
 
     // Optional fields
-    private TransportType transportType;
-    private int maxSpeed;
-    private int age;
+    private TransportType transportType { get; set; }
+    private int maxSpeed { get; set; }
+    private int age { get; set; }
     private int weight;
 
     public static int NumberOfTransports = 0;
+
+    public int NumberOfPassengers
+    {
+        get { return numberOfPassengers; }
+
+        set { numberOfPassengers = value; }
+    }
+
+    public int Weight
+    {
+        get { return weight; }
+        set { weight = value; }
+    }
 
     public Transport()
     {
@@ -40,50 +55,81 @@ public class Transport
         NumberOfTransports++;
     }
 
+    public Transport(Transport transport)
+    {
+        this.numberOfPassengers = transport.numberOfPassengers;
+        this.weightOfEachPassenger = transport.weightOfEachPassenger;
+        this.transportType = transport.transportType;
+        this.maxSpeed = transport.maxSpeed;
+        this.age = transport.age;
+        this.weight = transport.weight;
+    }
+
     public void DisplayInfo()
     {
-        Console.WriteLine("Transport info:");
+        Console.WriteLine("\n--------Transport info--------");
         Console.WriteLine("Number of passengers: " + numberOfPassengers);
 
         if (weightOfEachPassenger.Count > 0)
         {
-            Console.WriteLine("Weight of each passenger: {");
+            Console.Write("Weight of each passenger: ");
 
             foreach (var weight in weightOfEachPassenger)
             {
-                Console.Write(" " + weight + ",");
+                Console.Write(" " + weight + " ");
             }
-
-            Console.Write("}");
         }
 
-        Console.WriteLine("Transport type: " + transportType);
+        Console.WriteLine("\nTransport type: " + transportType);
         Console.WriteLine("Max speed: " + maxSpeed);
         Console.WriteLine("Age: " + age);
         Console.WriteLine("Weight: " + weight);
+    }
+
+    public void GenerateRandomValues()
+    {
+        numberOfPassengers = new Random().Next(1, 50);
+
+        weightOfEachPassenger = new List<int>();
+        for (int i = 0; i < numberOfPassengers; i++)
+            weightOfEachPassenger.Add(new Random().Next(1, 120));
+
+        transportType = (TransportType) new Random().Next(2);
+        maxSpeed = new Random().Next(30, 170);
+        age = new Random().Next(0, 20);
+        weight = new Random().Next(1000, 10_000);
+    }
+
+    public int GetTotalWeightOfPassengers()
+    {
+        int sum = 0;
+
+        foreach (var weight in weightOfEachPassenger)
+            sum += weight;
+
+        return sum;
+    }
+
+    public bool EqualsByNumberOfPassengers(int numberOfPassengers)
+    {
+        return numberOfPassengers.Equals(this.numberOfPassengers);
     }
 
     public void SetFieldsByConsoleInput()
     {
         Console.WriteLine("Entering data for this transport...");
 
-        do
-        {
-            Console.Write("Enter number of passengers: ");
-            numberOfPassengers = Convert.ToInt32(Console.ReadLine());
-            
-            if (numberOfPassengers < 0)
-                Console.WriteLine("ERROR : Number of passengers can't be negative");
-            
-        } while (numberOfPassengers < 0);
+        numberOfPassengers = GetPositiveIntFromConsole("Enter number of passengers: ");
 
 
-        Console.WriteLine("Entering weight for each passenger...");
+        if (numberOfPassengers > 0)
+            Console.WriteLine("Entering weight for each passenger...");
 
         weightOfEachPassenger = new List<int>();
         for (var i = 0; i < numberOfPassengers; i++)
         {
-            Console.Write(i + ". Type weight: ");
+            int correctNumber = i + 1;
+            Console.Write(correctNumber + ". Type weight: ");
             var passengerWeight = Convert.ToInt32(Console.ReadLine());
 
             if (passengerWeight <= 0)
@@ -96,5 +142,25 @@ public class Transport
                 weightOfEachPassenger.Add(passengerWeight);
             }
         }
+
+        maxSpeed = GetPositiveIntFromConsole("Enter max speed: ");
+        age = GetPositiveIntFromConsole("Enter age: ");
+        weight = GetPositiveIntFromConsole("Enter weight: ");
+    }
+
+    private int GetPositiveIntFromConsole(string inputText)
+    {
+        int positiveNumber;
+        do
+        {
+            Console.Write(inputText);
+            positiveNumber = Convert.ToInt32(Console.ReadLine());
+
+            if (positiveNumber < 0)
+                Console.WriteLine("ERROR : This type of value can't be negative. Try again");
+
+        } while (positiveNumber < 0);
+
+        return positiveNumber;
     }
 }
