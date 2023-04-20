@@ -1,5 +1,4 @@
 ﻿using LabsAndHomeworks.homework1;
-using LabsAndHomeworks.lab1;
 
 namespace LabsAndHomeworks;
 
@@ -9,7 +8,7 @@ public class HomeworksRunner
     {
         // Homework1(); // Homework 1: drawing something colorful in console and dialog with npc (2/9/2023)
         // Lab1(); // Lab 1: task with transports
-        Lab2();
+        Lab1And3();
     }
 
     private static void Homework1()
@@ -27,7 +26,7 @@ public class HomeworksRunner
         dialogWithNpc.RunDialog();
     }
 
-    private static void Lab1()
+    private static void Lab1And3()
     {
         Lab1Transports lab1Transports = new Lab1Transports();
         lab1Transports.RunLab();
@@ -35,6 +34,6 @@ public class HomeworksRunner
 
     private static void Lab2()
     {
-
+        // cant be implemented because of document edited
     }
 }

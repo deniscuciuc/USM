@@ -155,9 +155,19 @@ public class Transport
         {
             Console.Write(inputText);
             positiveNumber = Convert.ToInt32(Console.ReadLine());
+            try
+            {
 
-            if (positiveNumber < 0)
-                Console.WriteLine("ERROR : This type of value can't be negative. Try again");
+                if (positiveNumber < 0)
+                    throw new NegativeIntegerException("ERROR : This type of value can't be negative. Try again");
+            }
+            catch (NegativeIntegerException e)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\n\n" + e.Message);
+                Console.WriteLine(e.StackTrace + "\n\n");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
 
         } while (positiveNumber < 0);
 
