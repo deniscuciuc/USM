@@ -1,0 +1,10 @@
+banana america
+apple miracle none
+cherry austria
+grape
+america
+russia
+germany
+china
+java
+c++
